@@ -1,0 +1,35 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+table thead tr th, table tr td {
+    white-space: norap;
+    padding: .5rem 1rem;
+    text-align: left;
+    font-weight: 500;
+}
+
+table thead tr th {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+table tr td:nth-child(1) {
+    color: #111827 !important;
+}
+
+table tr td {
+    color: #1e293b;
+}
+
+.main-container {
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.full-grid {
+    grid-column: 1 / 1;
+}
